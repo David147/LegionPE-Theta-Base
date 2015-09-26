@@ -15,23 +15,24 @@
 			"pass": "%warning%切勿把你的密碼分享給任何人,分享密碼有可能導致封禁.",
 			"toofast": "%warning%LegionPE 不是一個打字比賽的地方,打字打慢點吧!",
 			"toofreq": "%warning%不要嘗試去主宰我們的對話屏幕!",
-			"tooshort": "%warning%你的每一個字都會在別人的屏幕上佔用一行,難道你認為你不是在浪費着他們的屏幕空間嗎? %em%不要刷屏."
+			"tooshort": "%warning%你的每一個訊息都會在別人的屏幕上佔用一行, 難道你認為你不是在浪費着他們的屏幕空間嗎?\n%em%不要刷屏."
 		},
 		"broadcasts": [
-			"%notify%bold%你可以透過在%reset%http:\/\/lgpe.co\/d"而擁有特權,
-			"%notify%bold%在%reset%http:\/\/lgpe.co\/and"下載我們的應用程式吧,
-			"%notify%bold%在Twitter上跟隨我們! %em%%italic%@LegionPE	 	      "%notify%bold%在遊戲中賺取金幣, and 然後在商店中將金錢用在遊戲中!"
+			"%notify%bold%你可以透過在%reset%http:\/\/lgpe.co\/d%notify%而擁有特權,"
+			"%notify%bold%在%reset%http:\/\/lgpe.co\/and%notify%%bold%下載我們的應用程式吧",
+			"%notify%bold%在Twitter上跟隨我們! %em%%italic%@LegionPE,
+			"%notify%bold%在遊戲中賺取金幣, 然後在商店中花掉金錢!"
 		],
 		"format": {
-			"team": "%em1%TEAM%symbol%}%source%%symbol%>%msg%"
+			"team": "%em%團隊%symbol%}%source%%symbol%>%msg%"
 		},
 		"inbox": {
-			"start": "%verbose%=== 你獲取了 %em%%count%%verbosemid% new messages ===",
-			"end": "%verbose%=== End of new messages ==="
+			"start": "%verbose%=== 你有%em%%count%%verbosemid%個新訊息 ===",
+			"end": "%verbose%=== 新訊息結束 ==="
 		},
 		"spam": {
 			"swear": {
-				"warn": "%warning%這個字 %em%%word%%warning% 被偵測出為非法!"
+				"warn": "%warning%這個字 %em%%word%%warning% 被偵測出為不當!"
 			}
 		}
 	},
@@ -39,9 +40,9 @@
 		"error": {
 			"noperm": {
 				"normal": "%error%你沒有權限去使用這個指令.",
-				"donate": "%error%曾捐款的玩家才能使用這個指令."
+				"donate": "%error%請到 %em%http://lgpe.co/d%error% 捐款, 以獲得使用此指令的權限."
 			},
-			"wronguse": "%error%Usage: %usage%",
+			"wronguse": "%error%用法: %usage%",
 			"absplayer": {
 				"unknwon": "%error%那個玩家不在線或不存在.",
 				"named": "%error%T那個玩家 player \"%player%\" 不在線或不存在."
@@ -49,7 +50,7 @@
 			"donator": "%warning%請先把你的帳號升級至 Donator 才能使用這個指令.",
 			"vip": "%warning%請先把你的帳號升級至 VIP 才可以使用這指令.",
 			"staff": "%warning%只有管理員才能使用這個指令.",
-			"loading": "%wait%Loading. Please wait...",
+			"loading": "%wait%載入中，請等候……",
 			"notfound": "%error%Player %em%%name%%error% not found! Please type the %em2%full%error% (but upper/lower case doesn't matter) name of the player."
 		},
 		"alt": {
